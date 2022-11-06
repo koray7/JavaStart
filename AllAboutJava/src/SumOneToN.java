@@ -11,4 +11,12 @@ public class SumOneToN {
     public static long SumOneToN(long n) {
         return n * (n + 1) / 2;
     }
+
+    public static long anotherSum(long n) {
+        long sum = 0;
+        for (long i=1; i<=n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
 }
